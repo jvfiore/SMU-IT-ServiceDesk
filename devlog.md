@@ -1,5 +1,5 @@
 ## 2026-10-28 — Used Claude Opus 5.5 as a tutor for Requirements analysis
-Did: Overviewed all documents to come up with a base idea of requirements
+Did: Overviewed all documents to come up with a base idea of requirements (Decided on first set of roles, lifecycle, access rule and security brainstorming)
 
 Decided: 
 - Support Staff and Users operate under different IDs and Passwords (Users create their own ID/Password to login with, staff are provided with a developer made private ID and PIN for staff login) (Limit login attempts to counter attacking PIN pull scripts)
