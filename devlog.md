@@ -1,6 +1,6 @@
 # 2026-10-28 — Requirements Analysis & Core Architecture
 
-**Did:** Overcame initial ambiguity in the system requirements, establishing the core user roles, ticket lifecycle, access control rules, and security baselines.
+**Did:** Overcame initial ambiguity in the system requirements, establishing the core user roles, ticket lifecycle, access control rules, and security baselines. Used Claude as a Tutor modular tool and Gemini to help reformat devlog.
 
 **Decided:**
 * **Authentication & Authorization:** Planned a unified user model with a `role` field (user, staff, admin) to avoid maintaining duplicate authentication pipelines.
