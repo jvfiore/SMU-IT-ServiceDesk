@@ -3,7 +3,7 @@
 **Did:** Overcame initial ambiguity in the system requirements, establishing the core user roles, ticket lifecycle, access control rules, and security baselines.
 
 **Decided:**
-* **Authentication & Authorization:** Implemented a unified user model with a `role` field (user, staff, admin) to avoid maintaining duplicate authentication pipelines.
+* **Authentication & Authorization:** Planned a unified user model with a `role` field (user, staff, admin) to avoid maintaining duplicate authentication pipelines.
 * **Brute-Force Protection:** Used `express-rate-limit` to restrict requests per IP address (mitigating campus-wide Wi-Fi DoS risks) combined with per-account exponential delays on failed PIN attempts rather than hard account lockouts, balancing security against denial-of-service risks.
 * **Ticket Lifecycle & Auto-Close:** 
   * Tickets marked as resolved automatically transition to closed after 3 days of inactivity.
