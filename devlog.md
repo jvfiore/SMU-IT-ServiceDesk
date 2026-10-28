@@ -16,4 +16,7 @@
 * Fine-tuning the exact exponential backoff timing coefficients for login failures.
 
 **Evidence:**
+<<<<<<< HEAD
 ![Ticket lifecycle state diagram](<docs/State Diagram.drawio.png>)
+=======
+* State Diagram: * ![Ticket lifecycle state diagram](<docs/State Diagram.drawio.png>)
